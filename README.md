@@ -38,7 +38,11 @@ ipl-win-predictor
 
 git clone https://github.com/Biswajeetsahu13/ipl-win-predictor.git  
 cd ipl-win-predictor  
-pip install -r requirements.txt
+pip install streamlit==1.25.0
+pip install pandas==1.5.3
+pip install scikit-learn==1.2.2
+
+streamlit run app.py
 
 ## ▶️ Run the Application
 
