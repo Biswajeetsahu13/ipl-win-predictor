@@ -35,8 +35,9 @@ Model accuracy: **~80%**
 ## 📂 Project Structure
 ipl-win-predictor
 │
-├── app.py                # Streamlit web application
-├── pipe.pkl              # Trained machine learning model
-├── matches.csv           # IPL dataset
-├── Untitled.ipynb        # Model training notebook
-└── README.md             # Project documentation
+├── app.py # Streamlit web application
+├── pipe.pkl # Trained machine learning model
+├── matches.csv # IPL dataset
+├── Untitled.ipynb # Model training notebook
+├── match_progression.py # Match analysis functions
+└── README.md # Project documentation
