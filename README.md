@@ -7,7 +7,6 @@ This project uses **Logistic Regression with a Scikit-Learn Pipeline** and is de
 ---
 
 ## 📊 Features
-
 - Predicts **win probability in real time**
 - Uses **match data from IPL datasets**
 - Interactive **Streamlit dashboard**
@@ -15,9 +14,7 @@ This project uses **Logistic Regression with a Scikit-Learn Pipeline** and is de
 - Clean machine learning pipeline
 ---
 ## 🧠 Machine Learning Model
-
 Algorithm used:
-
 - Logistic Regression
 
 Pipeline steps:
@@ -33,6 +30,7 @@ Model accuracy: **~80%**
 ---
 
 ## 📂 Project Structure
+
 ipl-win-predictor
 │
 ├── app.py # Streamlit web application
