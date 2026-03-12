@@ -1,41 +1,35 @@
 # 🏏 IPL Win Predictor
 
-A Machine Learning project that predicts the **winning probability of an IPL match** based on current match conditions such as score, overs, wickets, and target.
-
-This project uses **Logistic Regression with a Scikit-Learn Pipeline** and is deployed using **Streamlit** to create an interactive dashboard.
+The **IPL Win Predictor** is a Machine Learning project that predicts the **winning probability of a team during an IPL match** based on current match conditions such as score, overs, wickets remaining, and target.
 
 ---
 
 ## 📊 Features
-- Predicts **win probability in real time**
-- Uses **match data from IPL datasets**
+
+- Predicts **real-time win probability**
+- Uses **IPL historical match data**
 - Interactive **Streamlit dashboard**
-- Shows **match progression**
-- Clean machine learning pipeline
+- Match progression analysis
+- Machine learning pipeline
+
 ---
+
 ## 🧠 Machine Learning Model
-Algorithm used:
+
+**Algorithm used:**
+
 - Logistic Regression
 
-Pipeline steps:
+**Workflow:**
 
 1. Data preprocessing
 2. Feature engineering
-3. One-Hot Encoding for categorical variables
-4. Logistic Regression model training
+3. OneHotEncoding
+4. Model training
 5. Probability prediction
 
-Model accuracy: **~80%**
+**Model Accuracy:** ~80%
 
 ---
 
 ## 📂 Project Structure
-
-ipl-win-predictor
-│
-├── app.py # Streamlit web application
-├── pipe.pkl # Trained machine learning model
-├── matches.csv # IPL dataset
-├── Untitled.ipynb # Model training notebook
-├── match_progression.py # Match analysis functions
-└── README.md # Project documentation
